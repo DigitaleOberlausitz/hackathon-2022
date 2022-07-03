@@ -12,12 +12,7 @@ body {
   background-size: cover;
   background-position: 60% 66%;
 }
-body::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: hsl(184deg 32% 8% / 92%);
-}
+
 #root {
   position: absolute;
   inset: 0;
@@ -26,4 +21,18 @@ body::before {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.page {
+  background-color: hsl(184deg 32% 8% / 92%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.page__background, .page__content {
+  background: transparent;
 }
