@@ -5,13 +5,19 @@ import './App.css';
 import config from "./chatbot/config";
 import MessageParser from "./chatbot/MessageParser";
 import ActionProvider from "./chatbot/ActionProvider";
+import {useMarkdown} from "./useMarkdown";
+
+// @ts-ignore
+import dynamicFileName from './main.md';
 
 function App() {
-  return (
-    <div className="App">
-      <Chatbot        config={config}        messageParser={MessageParser}        actionProvider={ActionProvider}      />
-    </div>
-  );
+    const mdComponent = useMarkdown(dynamicFileName);
+    return (
+        <div className="App">
+            {mdComponent}
+            <Chatbot config={config} messageParser={MessageParser} actionProvider={ActionProvider}/>
+        </div>
+    );
 }
 
 export default App;
