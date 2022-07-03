@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './theme.css';
-import './onsen-css-components.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
