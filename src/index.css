@@ -19,7 +19,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-color: hsl(184deg 32% 8% / 92%);
+    background-color: hsl(184deg 32% 8% / 86%);
     background-attachment: fixed;
 }
 
