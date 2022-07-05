@@ -23,7 +23,7 @@ class ActionProvider {
     handleDogExampleQuestion() {
         this.setState((prev: { messages: any; }) => ({
             ...prev,
-            messages: [...prev.messages, this.createChatbotMessage('Hier ist ein zufälliger Hund', {widget: 'dogPicture',})]
+            messages: [...prev.messages, this.createChatbotMessage('Hier ist ein zufälliges Bild eines Hundes.', {widget: 'dogPicture',})]
         }));
     }
 }

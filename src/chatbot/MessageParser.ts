@@ -14,6 +14,8 @@ class MessageParser {
             .some(particle=>message.toLocaleLowerCase().includes(particle))
         ) {
             this.actionProvider.handleFoodQuestion();
+        } else if (message.toLocaleLowerCase().includes('hund')) {
+            this.actionProvider.handleDogExampleQuestion();
         }
     }
 }
