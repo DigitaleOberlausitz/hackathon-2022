@@ -14,7 +14,13 @@ function App() {
     return (
         <div className="App">
             <Markdown dynamicFileName={mainMd} modifier='main'/>
-            <Chatbot config={config} messageParser={MessageParser} actionProvider={ActionProvider}/>
+            <Chatbot
+                config={config}
+                headerText="Unterhaltung mit Bottina Robowitz"
+                placeholderText="Nachricht an Bottina..."
+                messageParser={MessageParser}
+                actionProvider={ActionProvider}
+            />
         </div>
     );
 }
