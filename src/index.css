@@ -7,11 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     width: 100vw;
     height: 100vh;
-    background-image: url("../public/FOqBsr8HXbW32h7h0boN.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 60% 66%;
-    background-attachment: fixed;
+    background: url("../public/FOqBsr8HXbW32h7h0boN.jpg") no-repeat fixed 60% 66% / cover;
     color: #def;
 }
 
