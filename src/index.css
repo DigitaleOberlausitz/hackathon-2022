@@ -11,6 +11,10 @@ body {
     color: #def;
 }
 
+a {
+    color: #8af;
+}
+
 body::before {
     content: "";
     position: fixed;

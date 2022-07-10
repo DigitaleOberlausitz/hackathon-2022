@@ -15,4 +15,4 @@
 
 # Kontakt
 
-Derzeit sind alle Anfragen bitte an <a href="mailto:hackathon@digitale-oberlausitz.eu">hackathon@digitale-oberlausitz.eu</a> zu richten.
+Derzeit sind alle Anfragen bitte an [hackathon@digitale-oberlausitz.eu](mailto:hackathon@digitale-oberlausitz.eu) zu richten.
