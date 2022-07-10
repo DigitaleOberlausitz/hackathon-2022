@@ -13,3 +13,6 @@
 - Ansprechpersonen vor Ort
 - Speisen und Getränke gratis
 
+# Kontakt
+
+Derzeit sind alle Anfragen bitte an hackathon@digitale-oberlausitz.eu.zu richten.
