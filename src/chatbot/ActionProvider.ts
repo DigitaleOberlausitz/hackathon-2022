@@ -17,7 +17,13 @@ class ActionProvider {
     handleFoodQuestion() {
         this.setState((prev: { messages: any; }) => ({
             ...prev,
-            messages: [...prev.messages, this.createChatbotMessage('Speisen und Getränke werden ohne zusätzliche Kosten bereitgestellt.', {widget: 'dogPicture',})]
+            messages: [...prev.messages, this.createChatbotMessage('Speisen und Getränke werden kostenlos bereitgestellt.')]
+        }));
+    }
+    handleDogExampleQuestion() {
+        this.setState((prev: { messages: any; }) => ({
+            ...prev,
+            messages: [...prev.messages, this.createChatbotMessage('Hier ist ein zufälliges Bild eines Hundes.', {widget: 'dogPicture',})]
         }));
     }
 }

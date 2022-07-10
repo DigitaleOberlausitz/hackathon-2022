@@ -5,13 +5,24 @@ import './App.css';
 import config from "./chatbot/config";
 import MessageParser from "./chatbot/MessageParser";
 import ActionProvider from "./chatbot/ActionProvider";
+import Markdown from "./Markdown";
+
+// @ts-ignore
+import mainMd from './main.md';
 
 function App() {
-  return (
-    <div className="App">
-      <Chatbot        config={config}        messageParser={MessageParser}        actionProvider={ActionProvider}      />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Markdown dynamicFileName={mainMd} modifier='main'/>
+            <Chatbot
+                config={config}
+                headerText="Unterhaltung mit Bottina Robowitz"
+                placeholderText="Nachricht an Bottina..."
+                messageParser={MessageParser}
+                actionProvider={ActionProvider}
+            />
+        </div>
+    );
 }
 
 export default App;
