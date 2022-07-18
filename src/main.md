@@ -1,4 +1,4 @@
-*Digitale Oberlausitz e. V.* & *Second Attempt e. V.* präsentieren:
+_Digitale Oberlausitz e. V._ & _Second Attempt e. V._ präsentieren:
 
 # Hackathon 2022
 
@@ -8,11 +8,12 @@
 
 ## Das erwartet euch
 
-- regionale Challenges
-- großzügige Räumlichkeiten zum Arbeiten und zum Abschalten
-- Ansprechpersonen vor Ort
-- Speisen und Getränke gratis
+-   regionale Challenges
+-   großzügige Räumlichkeiten zum Arbeiten und zum Abschalten
+-   Ansprechpersonen vor Ort
+-   Speisen und Getränke gratis
 
 # Kontakt
 
-Derzeit sind alle Anfragen bitte an [hackathon@digitale-oberlausitz.eu](mailto:hackathon@digitale-oberlausitz.eu) zu richten.
+Derzeit sind alle Anfragen bitte an [hackathon@digitale-oberlausitz.eu](mailto:hackathon@digitale-oberlausitz.eu) zu
+richten.
