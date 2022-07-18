@@ -1,0 +1,17 @@
+.mainpage {
+    display: flex;
+}
+
+.mainpage > .Markdown--main {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 800px) {
+    .mainpage {
+        flex-direction: column;
+    }
+    .mainpage > .Markdown--main {
+        flex-grow: initial;
+        margin-bottom: 2rem;
+    }
+}

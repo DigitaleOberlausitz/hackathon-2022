@@ -1,7 +1,3 @@
-_Digitale Oberlausitz e. V._ & _Second Attempt e. V._ präsentieren:
-
-# Hackathon 2022
-
 21\. bis 23. Oktober 2022
 
 **Rabryka**, Conrad-Schiedt-Str. 23, 02826 Görlitz
