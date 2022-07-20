@@ -6,7 +6,7 @@
 
 -   regionale Challenges
 -   großzügige Räumlichkeiten zum Arbeiten und zum Abschalten
--   Ansprechpersonen vor Ort
+-   pädagogisches Fachpersonal vor Ort
 -   Speisen und Getränke gratis
 
 # Kontakt

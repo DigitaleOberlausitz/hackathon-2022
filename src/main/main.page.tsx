@@ -9,15 +9,20 @@ import "./main.css"
 // @ts-ignore
 import mainMd from "./main.md"
 
+const enableChatBox = false
+
 export const MainPage: FC = () => (
     <div className="mainpage">
         <Markdown dynamicFileName={mainMd} modifier="main" />
-        <Chatbot
-            config={config}
-            headerText="Unterhaltung mit Bottina Robowitz"
-            placeholderText="Nachricht an Bottina..."
-            messageParser={MessageParser}
-            actionProvider={ActionProvider}
-        />
+
+        {enableChatBox && (
+            <Chatbot
+                config={config}
+                headerText="Unterhaltung mit Bottina Robowitz"
+                placeholderText="Nachricht an Bottina..."
+                messageParser={MessageParser}
+                actionProvider={ActionProvider}
+            />
+        )}
     </div>
 )

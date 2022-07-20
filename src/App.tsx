@@ -5,11 +5,11 @@ import "./App.css"
 // @ts-ignore
 import mainMd from "./main.md"
 // @ts-ignore
-import impressumMd from "./impressum.md"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import { MainPage } from "./main/main.page"
 import { ImpressumPage } from "./impressum/impressum.page"
 import ReactMarkdown from "react-markdown"
+import { PartnerPage } from "./partner/partner.page"
 
 function App() {
     return (
@@ -25,6 +25,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<MainPage />} />
                         <Route path="/impressum" element={<ImpressumPage />} />
+                        <Route path="/partner" element={<PartnerPage />} />
                     </Routes>
                 </div>
                 <div className="footer">
