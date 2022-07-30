@@ -14,7 +14,7 @@ function App() {
         <BrowserRouter>
             <div className="App">
                 <div className="header">
-                    <ReactMarkdown>_Digitale Oberlausitz e. V._ & _Second Attempt e. V._ präsentieren:</ReactMarkdown>
+                    <ReactMarkdown>_[Digitale Oberlausitz e. V.](https://www.digitale-oberlausitz.eu)_ & _[Second Attempt e. V.](https://www.rabryka.eu/de/Verein.html)_ präsentieren:</ReactMarkdown>
                     <Link to="/">
                         <h1>Hackathon 2022</h1>
                     </Link>
