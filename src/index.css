@@ -6,7 +6,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     width: 100vw;
     height: 100vh;
-    background: url("../public/FOqBsr8HXbW32h7h0boN.jpg") no-repeat fixed 60% 66% / cover;
+    background: url("../public/i6Gwmg1AXEdgi5sAiG4H_8x.jpg") no-repeat fixed center / cover;
     color: #def;
 }
 
@@ -17,14 +17,15 @@ a {
 body::before {
     content: "";
     position: fixed;
-    inset: 0;
-    background-color: hsl(184deg 32% 8% / 92%);
+    inset: 10vh 10vw;
+    background-color: hsl(184deg 32% 8% / 96%);
     background-attachment: fixed;
 }
 
 #root {
     position: absolute;
-    inset: 0;
+    inset: 11vh 11vw;
+    overflow: auto;
 }
 
 code {
