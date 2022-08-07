@@ -1,37 +1,45 @@
+:root {
+    --color-bg: #71bb96;
+    --color-font-main: #070605;
+    --color-link: #0e3147;
+    --color-link-hover: #1a5f89;
+}
+
+html {
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
         "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    width: 100vw;
-    height: 100vh;
-    background: url("../public/i6Gwmg1AXEdgi5sAiG4H_8x.jpg") no-repeat fixed center / cover;
-    color: #def;
+
     line-height: 160%;
+    height: 100vh;
+
+    background-color: var(--color-bg);
+    color: var(--color-font-main);
 }
 
 a {
-    color: #afc6ff;
+    color: var(--color-link);
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0 10%;
-    background-color: hsl(184deg 32% 8% / 94%);
-    background-attachment: fixed;
-}
-
-#root {
-    position: absolute;
-    inset: 0 11%;
+a:hover {
+    color: var(--color-link-hover);
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-top: 2rem;
 }
