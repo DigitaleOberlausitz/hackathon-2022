@@ -30,15 +30,7 @@ Für die Challenge benötigen wir folgende Informationen von Ihnen:
 -   Challenge
     -   kurze Beschreibung der Firma
     -   Beschreibung der Aufgabe
-    -   welche Unterstützung können die Teams von Ihnen bei der Lösung erwarten?
+    -   Was stellen Sie zur Verfügung? Welche Unterstützung können die Teams von Ihnen bei der Lösung erwarten?
     -   Preise
     -   Bewertungskriterien
 
-# Unterstützung
-
-Werden Sie [Fördermitglied](https://digitale-oberlausitz.eu/foerdermitglieder)!
-
-Spenden Sie für unsere gemeinnützigen Vereinszwecke!
-
--   GLS Bank (GENODEM1GLS) IBAN: DE82 4306 0967 1169 6170 00 (kopierbar und ohne Leerzeichen: DE82430609671169617000)
--   PayPal [Geld senden](https://paypal.me/doev)
