@@ -3,11 +3,11 @@ import "react-chatbot-kit/build/main.css"
 import "./App.css"
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import { MainPage } from "./main/main.page"
-import { ImpressumPage } from "./impressum/impressum.page"
+import { MainPage } from "./content/main/main.page"
+import { ImpressumPage } from "./content/impressum/impressum.page"
 import ReactMarkdown from "react-markdown"
-import { PartnerPage } from "./partner/partner.page"
-import { BeispielChallengePage } from "./beispielchallenge/beispielchallenge.page"
+import { PartnerPage } from "./content/partner/partner.page"
+import { BeispielChallengePage } from "./content/beispielchallenge/beispielchallenge.page"
 
 function App() {
     return (
