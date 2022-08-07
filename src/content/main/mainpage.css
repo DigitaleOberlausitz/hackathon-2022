@@ -1,0 +1,21 @@
+
+#mainpage {
+    display: flex;
+}
+
+#mainpage_content {
+    flex-grow: 1;
+
+    min-width: 500px;
+}
+
+#mainpage_poster img {
+    width: 300px;
+    margin: .3em;
+}
+
+@media screen and (max-width: 1050px)  {
+    #mainpage {
+        flex-direction: column;
+    }
+}
