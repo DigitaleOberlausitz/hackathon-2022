@@ -13,7 +13,7 @@ export const Navbar: FC = () => (
                 <Link to="/hackathon">Was ist ein Hackathon?</Link>
             </li>
             <li>
-                <Link to="/teilnehmen">Teilnehmen</Link>
+                <a href="https://eveeno.com/hackathon-goerlitz-2022">Teilnehmen (eveeno↗)</a>
             </li>
             <li>
                 <Link to="/partner">Challenge einreichen</Link>

@@ -9,7 +9,6 @@ import ReactMarkdown from "react-markdown"
 import { PartnerPage } from "./content/partner/partner.page"
 import { BeispielChallengePage } from "./content/beispielchallenge/beispielchallenge.page"
 import { UnterstuetzenPage } from "./content/unterstuetzen/unterstuetzen.page"
-import { TeilnehmenPage } from "./content/teilnehmen/teilnehmen.page"
 import { HackathonPage } from "./content/hackathon/hackathon.page"
 import { Navbar } from "./navbar/navbar"
 
@@ -41,7 +40,6 @@ function App() {
                             <Route path="/impressum" element={<ImpressumPage />} />
                             <Route path="/partner" element={<PartnerPage />} />
                             <Route path="/unterstuetzen" element={<UnterstuetzenPage />} />
-                            <Route path="/teilnehmen" element={<TeilnehmenPage />} />
                             <Route path="/beispiel_challenge" element={<BeispielChallengePage />} />
                         </Routes>
                     </div>
