@@ -4,7 +4,7 @@ Der Hackathon lebt von den Teilnehmenden und daher freuen wir uns auf euch. Dami
 
 - [Registrierung über eveeno](https://eveeno.com/hackathon-goerlitz-2022).
 
-## Fragen für Teilnehmende
+## FAQ
 
 ### Was ist wenn ...
 
