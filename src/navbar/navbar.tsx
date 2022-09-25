@@ -13,7 +13,10 @@ export const Navbar: FC = () => (
                 <Link to="/hackathon">Was ist ein Hackathon?</Link>
             </li>
             <li>
-                <Link to="/partner">Partner und Challenges</Link>
+                <Link to="/challenges">Challenges</Link>
+            </li>
+            <li>
+                <Link to="/partner">Partner</Link>
                 <ul>
                     <li>
                         <Link to="/beispiel_challenge">Beispiel-Challenge</Link>

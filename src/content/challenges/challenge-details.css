@@ -1,0 +1,12 @@
+.challenge-details > p {
+    font-size: 1.3em;
+}
+
+.challenge-details > h1 {
+    line-height: initial;
+}
+
+.Markdown img[src*="zeiss-logo-rgb"] {
+    width: 200px;
+    height: 200px;
+}

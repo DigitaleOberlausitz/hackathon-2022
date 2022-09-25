@@ -12,6 +12,8 @@ import { UnterstuetzenPage } from "./content/unterstuetzen/unterstuetzen.page"
 import { TeilnehmenPage } from "./content/teilnehmen/teilnehmen.page"
 import { HackathonPage } from "./content/hackathon/hackathon.page"
 import { Navbar } from "./navbar/navbar"
+import { ChallengesPage } from "./content/challenges/challenges-overview.page"
+import { ChallengeDetails } from "./content/challenges/challenge-details"
 
 function App() {
     return (
@@ -38,6 +40,8 @@ function App() {
                         <Routes>
                             <Route path="/" element={<MainPage />} />
                             <Route path="/hackathon" element={<HackathonPage />} />
+                            <Route path="/challenges" element={<ChallengesPage />} />
+                            <Route path="/challenge/:name" element={<ChallengeDetails />} />
                             <Route path="/impressum" element={<ImpressumPage />} />
                             <Route path="/partner" element={<PartnerPage />} />
                             <Route path="/unterstuetzen" element={<UnterstuetzenPage />} />
