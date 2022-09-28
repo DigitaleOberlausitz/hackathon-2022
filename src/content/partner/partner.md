@@ -33,4 +33,3 @@ Für die Challenge benötigen wir folgende Informationen von Ihnen:
     -   Was stellen Sie zur Verfügung? Welche Unterstützung können die Teams von Ihnen bei der Lösung erwarten?
     -   Preise
     -   Bewertungskriterien
-
