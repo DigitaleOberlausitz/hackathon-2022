@@ -1,4 +1,3 @@
-
 #mainpage {
     display: flex;
 }
@@ -11,10 +10,10 @@
 
 #mainpage_poster img {
     width: 300px;
-    margin: .3em;
+    margin: 0.3em;
 }
 
-@media screen and (max-width: 1050px)  {
+@media screen and (max-width: 1050px) {
     #mainpage {
         flex-direction: column;
     }

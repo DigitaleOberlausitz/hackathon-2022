@@ -19,7 +19,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className="App">
-                <div className="header">
+                <div className="header dark">
                     <ReactMarkdown>
                         _[Digitale Oberlausitz e. V.](https://www.digitale-oberlausitz.eu)_ & _[Second Attempt e.
                         V.](https://www.rabryka.eu/de/Verein.html)_ präsentieren:
@@ -34,7 +34,9 @@ function App() {
                     </Link>
                 </div>
                 <div className="main">
-                    <Navbar />
+                    <div className="dark">
+                        <Navbar />
+                    </div>
 
                     <div className="content">
                         <Routes>
@@ -50,7 +52,7 @@ function App() {
                         </Routes>
                     </div>
                 </div>
-                <div className="footer">
+                <div className="footer dark">
                     <Link to="/impressum">Impressum</Link>
                 </div>
             </div>
