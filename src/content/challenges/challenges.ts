@@ -4,6 +4,8 @@
 import zeiss1 from "./challenges/zeiss-simulationsframework.md"
 // @ts-ignore
 import zeiss2 from "./challenges/zeiss-testdatengenerator.md"
+// @ts-ignore
+import roland1 from "./challenges/roland-service-recycler.md"
 
 export type ChallengeDetails = {
     /**
@@ -18,7 +20,7 @@ export type ChallengeDetails = {
      * a short description of the challenge to be used in the overview.
      * Can be markdown.
      */
-    shortDescription: string
+    shortDescription?: string
     /**
      * markdown file name (see Markdown.tsx)
      */
@@ -38,19 +40,24 @@ export type ChallengeDetails = {
 
 export const challenges: Array<ChallengeDetails> = [
     {
-        key: zeiss1,
+        key: "zeiss1",
         title: "Simulationsframework für PLC Software",
-        shortDescription: "",
         markdown: zeiss1,
         company: "ZEISS Digital Innovation",
         link: "zeiss1",
     },
     {
-        key: zeiss2,
+        key: "zeiss2",
         title: "Testdatengenerator",
-        shortDescription: "",
         markdown: zeiss2,
         company: "ZEISS Digital Innovation",
         link: "zeiss2",
+    },
+    {
+        key: "roland1",
+        title: "Service Recycler",
+        markdown: roland1,
+        company: "Roland Schied",
+        link: "servicerecycler",
     },
 ].sort((a, b) => a.company.localeCompare(b.company))
