@@ -24,7 +24,7 @@ export const ChallengesPage: FC = () => {
                             {challenges
                                 .filter(challenge => challenge.company === organisation)
                                 .map(challenge => (
-                                    <li><Link to={`/challenge/${challenge.link}`}>{challenge.title}</Link></li>
+                                    <li key={challenge.key}><Link to={`/challenge/${challenge.link}`}>{challenge.title}</Link></li>
                                 ))
                             }
                         </ul>
