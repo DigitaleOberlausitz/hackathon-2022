@@ -10,6 +10,8 @@ import roland1 from "./challenges/roland-service-recycler.md"
 import sedna1 from "./challenges/sednasoft-datensparsame-online-vertraege.md"
 // @ts-ignore
 import doev1 from "./challenges/doev-opendata-anwendung.md"
+// @ts-ignore
+import fmsg1 from "./challenges/fmsg-nachrichten-verteiler.md"
 
 export type ChallengeDetails = {
     /**
@@ -77,5 +79,12 @@ export const challenges: Array<ChallengeDetails> = [
         markdown: doev1,
         company: "Digitale Oberlausitz e. V.",
         link: "doev1",
+    },
+    {
+        key: "fmsg1",
+        title: "Nachrichtenverteiler",
+        markdown: fmsg1,
+        company: "Förderverein des Montessorikinderhauses Spatzennest in Görlitz e. V.",
+        link: "fmsg1",
     },
 ].sort((a, b) => a.company.localeCompare(b.company))
