@@ -10,17 +10,27 @@ import markdown from "./challenges-overview.md"
 import { challenges } from "./challenges"
 
 export const ChallengesPage: FC = () => {
+    const uniqueOrganisations = challenges
+        .map(challenge => challenge.company)
+        .filter((organisation, index, list) => list.indexOf(organisation) === index);
     return (
         <div>
             <Markdown dynamicFileName={markdown} />
-            {challenges.map((challenge) => (
-                <div key={challenge.key} className="challenge-overview-item">
-                    <p>
-                        {challenge.company} - {challenge.title}
-                    </p>
-                    <Link to={`/challenge/${challenge.link}`}>Link</Link>
-                </div>
-            ))}
+            {uniqueOrganisations
+                .map(organisation => (
+                    <div key={organisation} className="challenge-overview-item">
+                        <p>{organisation}</p>
+                        <ul>
+                            {challenges
+                                .filter(challenge => challenge.company === organisation)
+                                .map(challenge => (
+                                    <li><Link to={`/challenge/${challenge.link}`}>{challenge.title}</Link></li>
+                                ))
+                            }
+                        </ul>
+                    </div>
+                ))
+            }
         </div>
     )
 }
