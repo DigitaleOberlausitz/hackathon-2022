@@ -6,6 +6,8 @@ import zeiss1 from "./challenges/zeiss-simulationsframework.md"
 import zeiss2 from "./challenges/zeiss-testdatengenerator.md"
 // @ts-ignore
 import roland1 from "./challenges/roland-service-recycler.md"
+// @ts-ignore
+import sedna1 from "./challenges/sednasoft-datensparsame-online-vertraege.md"
 
 export type ChallengeDetails = {
     /**
@@ -59,5 +61,12 @@ export const challenges: Array<ChallengeDetails> = [
         markdown: roland1,
         company: "Roland Schied",
         link: "servicerecycler",
+    },
+    {
+        key: "sedna1",
+        title: "Datensparsame Online-Verträge",
+        markdown: sedna1,
+        company: "SednaSoft",
+        link: "sedna1",
     },
 ].sort((a, b) => a.company.localeCompare(b.company))
