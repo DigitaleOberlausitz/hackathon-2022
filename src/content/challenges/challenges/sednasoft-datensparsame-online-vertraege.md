@@ -6,7 +6,7 @@ Seit 2005 stellen wir im Auftrag von kleinen und mittelständischen Unternehmen,
 
 ## Einleitung
 
-Manchmal sind Verträge unerlässlich, aber zu häufig ist es auch verschwendetes Papier. Selbst, wenn sie per E-Mail verschickt werden, wird oft der Drucker bemüht, damit sie unterschrieben und nachher wieder eingescannt werden können. Das konsumiert nicht nur wertvolle Ressourcen sondern ist auch noch unbequem und zeitraubend. Digitale Lösungen gibt es von namhaften Anbietern, aber was passiert mit den Dokumenten, über welche Servers laufen sie und warum kann es nicht ein regionale, datenschutzfreundliche und bequeme Lösung geben?
+Manchmal sind Verträge unerlässlich, aber zu häufig ist es auch verschwendetes Papier. Selbst, wenn sie per E-Mail verschickt werden, wird oft der Drucker bemüht, damit sie unterschrieben und nachher wieder eingescannt werden können. Das konsumiert nicht nur wertvolle Ressourcen sondern ist auch noch unbequem und zeitraubend. Digitale Lösungen gibt es von namhaften Anbietern, aber was passiert mit den Dokumenten, über welche Servers laufen sie und warum kann es nicht eine regionale, datenschutzfreundliche und bequeme Lösung geben?
 
 ## Die Challenge
 
@@ -16,7 +16,7 @@ In der einfachsten Variante meldet Alice sich beim Dienst an und gibt die eigene
 
 Als Zusatzaufgabe oder Ausbaustufe soll es beiden Vertragsparteien möglich sein, Zusatzbedingungen oder Abweichungen zu formulieren. Als Beispiel sendet Alice wieder ein vorbereitetes Dokument an Bob. Bob möchte aber nicht einfach so unterzeichnen, sondern nur unter der Bedingung, dass die vorgeschlagene Laufzeit 14 Tage kürzer ist als in dem Dokument. Durch Bobs Änderungen wird nun auch eine Einverständniserklärung von Alice notwendig. Beide Seiten sollen also jeweils ihr Einverständnis an weitere Name-Wert-Paare knüpfen können, bis die Gegenseite schließlich das finale Einverständnis ohne weitere geänderte oder hinzugefügte Nebenabreden erteilt.
 
-Da der Dienst so datensparsam wie möglich sein sollte, ist es als Ziel der Challenge zu verstehen, dass möglichst alle Schritte durch digitale Signaturen bestätigt werden, die sich in den E-Mails selbst befinden. Auf dem Server sollen so wenige Informationen wie möglich gespeichert werden und auf keinen Fall persönliche Daten. Die Nutzung bestehender offene Standards ist nicht nur aus Sicherheitsgründen empfohlen, sondern trägt auch zu einer guten Akzeptanz und Vertrauenswürdigkeit der erstellten Lösung bei.
+Da der Dienst so datensparsam wie möglich sein sollte, ist es als Ziel der Challenge zu verstehen, dass möglichst alle Schritte durch digitale Signaturen bestätigt werden, die sich in den E-Mails selbst befinden. Auf dem Server sollen so wenige Informationen wie möglich gespeichert werden und auf keinen Fall persönliche Daten. Die Nutzung bestehender offener Standards ist nicht nur aus Sicherheitsgründen empfohlen, sondern trägt auch zur Vertrauenswürdigkeit der erstellten Lösung und damit einer breiten Akzeptanz bei.
 
 ## Was wir zur Verfügung stellen
 
