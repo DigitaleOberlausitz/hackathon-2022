@@ -26,12 +26,22 @@ Da der Dienst so datensparsam wie möglich sein sollte, ist es als Ziel der Chal
 
 ## Preise
 
-1. Platz: TBA
-2. Platz: TBA
-3. Platz: TBA
+1. Platz: 320€ als Gutschein
+2. Platz: 160€ als Gutschein
+3. Platz: 80€ als Gutschein
+
+Für diese Preis-Gutscheine stehen folgende Optionen zur Auswahl:
+
+- Thalia.de
+- Audible.com
+- Conrad.de\/Conrad.pl
+- KiwiCo.com
+- Hetzner.com\/Nazwa.pl
+- Brilliant.org
 
 ## Bewertungskriterien
 
 - Konzept
 - Prototyp
+- Kreativität
 - Demonstration unter Realbedingungen
