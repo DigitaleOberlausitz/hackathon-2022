@@ -38,6 +38,7 @@ Für diese Preis-Gutscheine stehen folgende Optionen zur Auswahl:
 - KiwiCo.com
 - Hetzner.com\/Nazwa.pl
 - Brilliant.org
+- (ggf. weitere auf Anfrage)
 
 ## Bewertungskriterien
 
