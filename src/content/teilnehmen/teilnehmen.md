@@ -5,6 +5,8 @@ genug Essen bereit steht, bitten wir um eine unverbindliche aber ernstgemeinte..
 
 -   [Registrierung über eveeno](https://eveeno.com/hackathon-goerlitz-2022).
 
+Für die Teilnahme ist ein Mindestalter von 14 Jahren notwendig.
+
 ## FAQ
 
 ### Was ist wenn ...
@@ -24,6 +26,11 @@ genug Essen bereit steht, bitten wir um eine unverbindliche aber ernstgemeinte..
 
     Vor Ort findest du Ansprechpartner, die Fachwissen mitbringen und dich bei der Lösungsfindung oder technischen
     Problemen unterstützen können.
+
+-   **... ich mit meinen Freunden als Team teilnehmen möchte?**
+
+    Ihr könnt gerne als Team mitmachen. Bitte meldet euch aber trotzdem einzeln für den Hackathon an, damit wir alles
+    Planen können. Die Team-Größe ist auf 5 Personen begrenzt. Wenn ihr mehr Leute seid, bildet doch einfach zwei Teams.
 
 -   **... ich (noch) kein Team habe?**
 
