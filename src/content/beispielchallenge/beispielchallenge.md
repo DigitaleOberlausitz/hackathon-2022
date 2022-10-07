@@ -26,9 +26,9 @@ Kaufentscheidung um einen Beitrag zu mehr Nachhaltigkeit zu leisten.
 
 ## Preise
 
-1. Platz: 1500 €
-2. Platz: 1000 €
-3. Platz: Gutschein für ACME-Produkte über 300 €
+1. Platz: 500 €
+2. Platz: 250 €
+3. Platz: Gutschein für ACME-Produkte über 150 €
 
 ## Bewertungskriterien
 
