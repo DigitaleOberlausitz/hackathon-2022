@@ -14,3 +14,9 @@
     height: 2em;
     font-size: 1.2em;
 }
+
+.navbar {
+    background-image: url("../../public/leiterbahnen.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}

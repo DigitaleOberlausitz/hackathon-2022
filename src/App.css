@@ -72,6 +72,10 @@
         padding-bottom: var(--common-space);
     }
 
+    .navbar {
+        background: none !important;
+    }
+
     .footer-content {
         height: 2em;
     }
