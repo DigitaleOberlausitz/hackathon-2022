@@ -4,16 +4,14 @@
 
 #mainpage_content {
     flex-grow: 1;
-
-    min-width: 500px;
 }
 
 #mainpage_poster img {
     width: 300px;
-    margin: 0.3em;
+    margin: 0.5em;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
     #mainpage {
         flex-direction: column;
     }

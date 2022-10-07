@@ -10,8 +10,8 @@
     --color-bg-content: var(--color-light-medium);
     --color-font-dark: var(--color-dark);
     --color-font-light: white;
-    --color-link-dark: var(--color-highlight-medium);
-    --color-link-dark-hover: var(--color-highlight-dark);
+    --color-link-dark: var(--color-highlight-dark);
+    --color-link-dark-hover: var(--color-dark);
     --color-link-light: var(--color-light-medium);
     --color-link-light-hover: var(--color-medium);
 }
@@ -30,8 +30,8 @@ body {
     line-height: 160%;
     height: 100vh;
 
-    background-color: var(--color-highlight-medium);
-    color: var(--color-font-light);
+    background-color: var(--color-bg-content);
+    color: var(--color-font-dark);
 }
 
 a {
@@ -46,7 +46,11 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-h1,
+/* h1 is used only for main headline of a page and there the top-margin is handled by the container */
+h1 {
+    margin-top: 0;
+}
+
 h2,
 h3,
 h4,

@@ -21,23 +21,23 @@ function App() {
         <BrowserRouter>
             <div className="App">
                 <div className="header dark">
-                    <ReactMarkdown>
-                        _[Digitale Oberlausitz e. V.](https://www.digitale-oberlausitz.eu)_ & _[Second Attempt e.
-                        V.](https://www.rabryka.eu/de/Verein.html)_ präsentieren:
-                    </ReactMarkdown>
-                    <Link to="/">
-                        <img
-                            id="hackathon_headline"
-                            aria-label="Hackathon 2022"
-                            alt="Hackathon 2022"
-                            src="https://raw.githubusercontent.com/DigitaleOberlausitz/grafiken/master/Plakate/hackathon/2022/hackathon2022-schriftzug.svg"
-                        />
-                    </Link>
+                    <div className="title">
+                        <ReactMarkdown>
+                            _[Digitale Oberlausitz e. V.](https://www.digitale-oberlausitz.eu)_ & _[Second Attempt e.
+                            V.](https://www.rabryka.eu/de/Verein.html)_ präsentieren:
+                        </ReactMarkdown>
+                        <Link to="/">
+                            <img
+                                id="hackathon_headline"
+                                aria-label="Hackathon 2022"
+                                alt="Hackathon 2022"
+                                src="hackathon2022-schriftzug.svg"
+                            />
+                        </Link>
+                    </div>
                 </div>
                 <div className="main">
-                    <div className="dark">
-                        <Navbar />
-                    </div>
+                    <Navbar />
 
                     <div className="content">
                         <Routes>
@@ -55,8 +55,10 @@ function App() {
                     </div>
                 </div>
                 <div className="footer dark">
-                    <Link to="/impressum">Impressum</Link>
-                    <Link to="/coc">Code of Conduct</Link>
+                    <div className="footer-content">
+                        <Link to="/impressum">Impressum</Link>
+                        <Link to="/coc">Code of Conduct</Link>
+                    </div>
                 </div>
             </div>
         </BrowserRouter>
