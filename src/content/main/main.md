@@ -9,15 +9,14 @@
 -   pädagogisches Fachpersonal vor Ort
 -   Speisen und Getränke gratis
 
-# Partner und Challenges gesucht!
+# Teilnehmer*innen gesucht
 
-Wir suchen nach Unternehmen, Vereinen oder andere Organisationen, die für den Hackathon konkrete Aufgaben (sogenannte
-"Challenges") ausschreiben. Idealerweise handelt es sich bei den Aufgaben um echte Herausforderungen, deren Lösung nicht
-nur für das Unternehmen einen Mehrwert darstellt, sondern auch darüber hinaus einen Nutzen erfüllt, beispielsweise im
-Hinblick auf Nachhaltigkeit oder Digitalisierung.
+Der Hackathon lebt von den Teilnehmenden und daher freuen wir uns auf Euch. 
+Ihr wollt ein Wochenende lang basteln, programmieren und euch mit Gleichgesinnten austauschen?
+Dann meldet euch gerne für den Hackathon an.
 
-Mehr Informationen, wie Sie eine Challenge ausloben können und andere Möglichkeiten, um uns zu unterstützen, finden Sie
-unter [Partner](/partner).
+Mehr Infos zur Teilnahme findet ihr unter [Teilnehmen](/teilnehmen).
+
 
 ## Kontakt
 

@@ -5,7 +5,7 @@ genug Essen bereit steht, bitten wir um eine unverbindliche aber ernstgemeinte..
 
 -   [Registrierung über eveeno](https://eveeno.com/hackathon-goerlitz-2022).
 
-Für die Teilnahme ist ein Mindestalter von 14 Jahren notwendig.
+**Für die Teilnahme ist ein Mindestalter von 14 Jahren notwendig.**
 
 ## FAQ
 
