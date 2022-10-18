@@ -45,3 +45,11 @@ Entwickler oder als Testfälle für Tester dienen können.
 -   Lauffähiger Prototyp
 -   Simulation vom Lernfabrik-Verhalten
 -   Beschreibungsmöglichkeit für Maschinenverhalten
+
+## Preise
+
+1. Platz: 300€
+2. Platz: 200€
+3. Platz: 100€
+
+Preise sind pro Team, d.h. werden unter den Teammitgliedern aufgeteilt.

@@ -18,10 +18,15 @@ Es soll eine Schnittstelle geschaffen werden, die per E-Mail eine Nachricht entg
 
 ## Preise
 
-Aus organisatorischen Gründen kann der Verein derzeit keine Auskunft geben, ob er überhaupt Preise vergeben können wird.
+1. Platz: 128€
+2. Platz: 64€
+3. Platz: 32€
+
+Preise sind pro Team, d.h. werden unter den Teammitgliedern aufgeteilt.
 
 ## Bewertungskriterien
 
 - Gesamteindruck
 - Funktionalität
-- 
+
+

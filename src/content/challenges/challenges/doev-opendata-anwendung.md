@@ -21,9 +21,12 @@ In dieser Challenge geht es darum, OpenData zu erschließen, zu nutzen und dazu 
 
 ## Preise
 
-1. Platz: TBA
-2. Platz: TBA
-3. Platz: TBA
+1. Platz: 128€
+2. Platz: 64€
+3. Platz: 32€
+
+Preise sind pro Team, d.h. werden unter den Teammitgliedern aufgeteilt.
+
 
 ## Bewertungskriterien
 

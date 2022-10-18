@@ -2,6 +2,13 @@
 
 **Rabryka**, Conrad-Schiedt-Str. 23, 02826 Görlitz
 
+## Zeiten
+
+Fr. 14:00 - 22:00 Uhr  
+Sa. 08:00 - 22:00 Uhr  
+So. 08:00 - 16:00 Uhr
+
+
 ## Das erwartet euch
 
 -   regionale Challenges

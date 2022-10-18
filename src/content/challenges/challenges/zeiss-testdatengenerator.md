@@ -39,6 +39,8 @@ produzieren. Diese Übergänge müssen auch durch den Generator abgedeckt werden
 
 ## Preise
 
-1. Platz: TBD
-2. Platz: TBD
-3. Platz: TBD
+1. Platz: 300€
+2. Platz: 200€
+3. Platz: 100€
+
+Preise sind pro Team, d.h. werden unter den Teammitgliedern aufgeteilt.

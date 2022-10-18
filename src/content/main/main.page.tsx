@@ -14,6 +14,7 @@ export const MainPage: FC = () => (
         <div id="mainpage_poster">
             <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://raw.githubusercontent.com/DigitaleOberlausitz/grafiken/master/Plakate/hackathon/2022/poster-hackathon-A3-web.png"
             >
                 <img

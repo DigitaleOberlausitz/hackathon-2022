@@ -5,8 +5,6 @@ import zeiss1 from "./challenges/zeiss-simulationsframework.md"
 // @ts-ignore
 import zeiss2 from "./challenges/zeiss-testdatengenerator.md"
 // @ts-ignore
-import roland1 from "./challenges/roland-service-recycler.md"
-// @ts-ignore
 import sedna1 from "./challenges/sednasoft-datensparsame-online-vertraege.md"
 // @ts-ignore
 import doev1 from "./challenges/doev-opendata-anwendung.md"
@@ -58,13 +56,6 @@ export const challenges: Array<ChallengeDetails> = [
         markdown: zeiss2,
         company: "ZEISS Digital Innovation",
         link: "zeiss2",
-    },
-    {
-        key: "roland1",
-        title: "Service Recycler",
-        markdown: roland1,
-        company: "Roland Schied",
-        link: "servicerecycler",
     },
     {
         key: "sedna1",
