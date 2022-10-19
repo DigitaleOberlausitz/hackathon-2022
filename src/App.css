@@ -19,6 +19,10 @@
     padding-bottom: var(--common-space);
 }
 
+.title {
+    text-align: center;
+}
+
 .content {
     background-color: var(--color-bg-content);
     flex-grow: 1;
