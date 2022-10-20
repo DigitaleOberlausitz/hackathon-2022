@@ -77,7 +77,7 @@ genug Essen bereit steht, bitten wir um eine unverbindliche aber ernstgemeinte..
 
 -   **Zu welchen Zeiten findet der Hackathon statt??**
 
-    -   Am Freitag startet der Hackathon 14 Uhr und geht bis 22 Uhr.
+    -   Am Freitag startet der Hackathon 13:30 Uhr und geht bis 22 Uhr.
     -   Am Samstag sind wir von 8 Uhr bis 22 Uhr vor Ort.
     -   Am Sonntag sind wir von 8 Uhr bis 15 Uhr vor Ort.
 

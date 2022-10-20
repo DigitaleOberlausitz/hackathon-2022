@@ -4,9 +4,21 @@
 
 ## Zeiten
 
-Fr. 14:00 - 22:00 Uhr  
-Sa. 08:00 - 22:00 Uhr  
-So. 08:00 - 15:00 Uhr
+Freitag:
+
+- 13:30 Einlass
+- 14:15 Eröffnungsveranstaltung
+- 22:00 Schluss
+
+Samstag:
+
+- 08:00 Einlass
+- 22:00 Schluss
+
+Sonntag:
+
+- 08:00 Einlass
+- 15:00 Schluss
 
 
 ## Das erwartet euch
