@@ -7,6 +7,9 @@ genug Essen bereit steht, bitten wir um eine unverbindliche aber ernstgemeinte..
 
 **Für die Teilnahme ist ein Mindestalter von 14 Jahren notwendig.**
 
+Technische Hinweise zur Erstellung und Einreichung von Challenge-Lösungen findest du unter [Technische Infos](/techinfo).
+
+
 ## FAQ
 
 ### Was ist wenn ...

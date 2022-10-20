@@ -15,6 +15,7 @@ import { Navbar } from "./navbar/navbar"
 import { ChallengesPage } from "./content/challenges/challenges-overview.page"
 import { ChallengeDetails } from "./content/challenges/challenge-details"
 import { CodeOfConductPage } from "./content/codeofconduct/codeofconduct.page"
+import { TechinfoPage } from "./content/techinfo/techinfo.page"
 
 function App() {
     return (
@@ -51,6 +52,7 @@ function App() {
                             <Route path="/teilnehmen" element={<TeilnehmenPage />} />
                             <Route path="/beispiel_challenge" element={<BeispielChallengePage />} />
                             <Route path="/coc" element={<CodeOfConductPage />} />
+                            <Route path="/techinfo" element={<TechinfoPage />} />
                         </Routes>
                     </div>
                 </div>
