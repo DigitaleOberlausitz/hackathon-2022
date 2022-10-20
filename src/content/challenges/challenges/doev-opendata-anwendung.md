@@ -54,7 +54,7 @@ Preise sind pro Team, d.h. werden unter den Teammitgliedern aufgeteilt.
 Inspiration bei bestehenden Systemen in anderen Städten ist OK, aber komplett neue und originelle Ideen werden bevorzugt.
 
 ### Überzeugungskraft
-Hat die Idee das Potenzial, die Verantwortlichen (Politiker*innen, Behören,...)
+Hat die Idee das Potenzial, die Verantwortlichen (Politiker*innen, Behörden,...)
 davon zu überzeugen, dass OpenData für die Stadt und Region relevant sind?
 
 ### Praktischer Nutzen
