@@ -1,15 +1,11 @@
 import React, { FC } from "react"
 import Markdown from "../../Markdown"
-
-// @ts-ignore
-import mainMd from "./main.md"
-
 import "./mainpage.css"
 
-export const MainPage: FC = () => (
+export const Main: FC = () => (
     <div id="mainpage">
         <div id="mainpage_content">
-            <Markdown dynamicFileName={mainMd} modifier="main" />
+            <Markdown dynamicFileName={require("../../content/main.md")} modifier="main"/>
         </div>
         <div id="mainpage_poster">
             <a

@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom"
 
 import "./challenge-details.css"
 
-import { challenges } from "./challenges"
+import { challenges } from "../../content/challenges"
 import Markdown from "../../Markdown"
 
 export const ChallengeDetails: FC = () => {

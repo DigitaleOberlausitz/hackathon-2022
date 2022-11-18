@@ -3,19 +3,12 @@ import "react-chatbot-kit/build/main.css"
 import "./App.css"
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import { MainPage } from "./content/main/main.page"
-import { ImpressumPage } from "./content/impressum/impressum.page"
+import { Main } from "./pages/main/main"
 import ReactMarkdown from "react-markdown"
-import { PartnerPage } from "./content/partner/partner.page"
-import { BeispielChallengePage } from "./content/beispielchallenge/beispielchallenge.page"
-import { UnterstuetzenPage } from "./content/unterstuetzen/unterstuetzen.page"
-import { TeilnehmenPage } from "./content/teilnehmen/teilnehmen.page"
-import { HackathonPage } from "./content/hackathon/hackathon.page"
 import { Navbar } from "./navbar/navbar"
-import { ChallengesPage } from "./content/challenges/challenges-overview.page"
-import { ChallengeDetails } from "./content/challenges/challenge-details"
-import { CodeOfConductPage } from "./content/codeofconduct/codeofconduct.page"
-import { TechinfoPage } from "./content/techinfo/techinfo.page"
+import { ChallengesPage } from "./pages/challenges-overview/challenges-overview"
+import { ChallengeDetails } from "./pages/challenge-details/challenge-details"
+import Markdown from "./Markdown";
 
 function App() {
     return (
@@ -42,17 +35,17 @@ function App() {
 
                     <div className="content">
                         <Routes>
-                            <Route path="/" element={<MainPage />} />
-                            <Route path="/hackathon" element={<HackathonPage />} />
+                            <Route path="/" element={<Main />} />
+                            <Route path="/hackathon" element={<Markdown dynamicFileName={require("./content/hackathon.md")} />} />
                             <Route path="/challenges" element={<ChallengesPage />} />
                             <Route path="/challenge/:name" element={<ChallengeDetails />} />
-                            <Route path="/impressum" element={<ImpressumPage />} />
-                            <Route path="/partner" element={<PartnerPage />} />
-                            <Route path="/unterstuetzen" element={<UnterstuetzenPage />} />
-                            <Route path="/teilnehmen" element={<TeilnehmenPage />} />
-                            <Route path="/beispiel_challenge" element={<BeispielChallengePage />} />
-                            <Route path="/coc" element={<CodeOfConductPage />} />
-                            <Route path="/techinfo" element={<TechinfoPage />} />
+                            <Route path="/impressum" element={<Markdown dynamicFileName={require("./content/impressum.md")} />} />
+                            <Route path="/partner" element={<Markdown dynamicFileName={require("./content/partner.md")} />} />
+                            <Route path="/unterstuetzen" element={<Markdown dynamicFileName={require("./content/unterstuetzen.md")} />} />
+                            <Route path="/teilnehmen" element={<Markdown dynamicFileName={require("./content/teilnehmen.md")} />} />
+                            <Route path="/beispiel_challenge" element={<Markdown dynamicFileName={require("./content/beispielchallenge.md")} />} />
+                            <Route path="/coc" element={<Markdown dynamicFileName={require("./content/codeofconduct.md")} />} />
+                            <Route path="/techinfo" element={<Markdown dynamicFileName={require("./content/techinfo.md")} />} />
                         </Routes>
                     </div>
                 </div>
