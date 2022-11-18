@@ -4,12 +4,18 @@ import "./App.css"
 import ReactMarkdown from "react-markdown"
 import remarkGfm from "remark-gfm"
 
-const Markdown: FC<{ dynamicFileName: string; modifier?: string }> = ({ dynamicFileName, modifier }) => {
+/**
+ * Render Markdown from a file
+ * @param $ The properties
+ * @param {string} $.src The result of calling `require` on an *.md file
+ * @param {string} $.modifier A modifier to append to the class name
+ */
+const Markdown: FC<{ src: string; modifier?: string }> = ({src, modifier}) => {
     const [data, setData] = useState("")
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
     useEffect(() => {
-        fetch(dynamicFileName)
+        fetch(src)
             .then((r) => r.text())
             .then((t) => {
                 setData(t)
@@ -19,7 +25,7 @@ const Markdown: FC<{ dynamicFileName: string; modifier?: string }> = ({ dynamicF
                 setError(e)
                 setLoading(false)
             })
-    }, [dynamicFileName])
+    }, [src])
     return (
         <div className={`Markdown${modifier ? `--${modifier}` : ""}`}>
             {loading ? (

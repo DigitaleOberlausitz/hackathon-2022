@@ -11,7 +11,7 @@ export const ChallengesPage: FC = () => {
         .filter((organisation, index, list) => list.indexOf(organisation) === index);
     return (
         <div>
-            <Markdown dynamicFileName={require("../../content/challenges-overview.md")} />
+            <Markdown src={require("../../content/challenges-overview.md")} />
             {uniqueOrganisations
                 .map(organisation => (
                     <div key={organisation} className="challenge-overview-item">

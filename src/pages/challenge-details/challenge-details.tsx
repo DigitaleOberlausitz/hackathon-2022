@@ -19,7 +19,7 @@ export const ChallengeDetails: FC = () => {
                     von <strong>{challenge.company}</strong>
                 </p>
 
-                <Markdown dynamicFileName={challenge.markdown} />
+                <Markdown src={challenge.markdown} />
             </div>
         )
     } else {

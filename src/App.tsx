@@ -36,16 +36,16 @@ function App() {
                     <div className="content">
                         <Routes>
                             <Route path="/" element={<Main />} />
-                            <Route path="/hackathon" element={<Markdown dynamicFileName={require("./content/hackathon.md")} />} />
+                            <Route path="/hackathon" element={<Markdown src={require("./content/hackathon.md")} />} />
                             <Route path="/challenges" element={<ChallengesPage />} />
                             <Route path="/challenge/:name" element={<ChallengeDetails />} />
-                            <Route path="/impressum" element={<Markdown dynamicFileName={require("./content/impressum.md")} />} />
-                            <Route path="/partner" element={<Markdown dynamicFileName={require("./content/partner.md")} />} />
-                            <Route path="/unterstuetzen" element={<Markdown dynamicFileName={require("./content/unterstuetzen.md")} />} />
-                            <Route path="/teilnehmen" element={<Markdown dynamicFileName={require("./content/teilnehmen.md")} />} />
-                            <Route path="/beispiel_challenge" element={<Markdown dynamicFileName={require("./content/beispielchallenge.md")} />} />
-                            <Route path="/coc" element={<Markdown dynamicFileName={require("./content/codeofconduct.md")} />} />
-                            <Route path="/techinfo" element={<Markdown dynamicFileName={require("./content/techinfo.md")} />} />
+                            <Route path="/impressum" element={<Markdown src={require("./content/impressum.md")} />} />
+                            <Route path="/partner" element={<Markdown src={require("./content/partner.md")} />} />
+                            <Route path="/unterstuetzen" element={<Markdown src={require("./content/unterstuetzen.md")} />} />
+                            <Route path="/teilnehmen" element={<Markdown src={require("./content/teilnehmen.md")} />} />
+                            <Route path="/beispiel_challenge" element={<Markdown src={require("./content/beispielchallenge.md")} />} />
+                            <Route path="/coc" element={<Markdown src={require("./content/codeofconduct.md")} />} />
+                            <Route path="/techinfo" element={<Markdown src={require("./content/techinfo.md")} />} />
                         </Routes>
                     </div>
                 </div>

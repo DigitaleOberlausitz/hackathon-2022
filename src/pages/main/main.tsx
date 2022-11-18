@@ -5,7 +5,7 @@ import "./mainpage.css"
 export const Main: FC = () => (
     <div id="mainpage">
         <div id="mainpage_content">
-            <Markdown dynamicFileName={require("../../content/main.md")} modifier="main"/>
+            <Markdown src={require("../../content/main.md")} modifier="main"/>
         </div>
         <div id="mainpage_poster">
             <a
