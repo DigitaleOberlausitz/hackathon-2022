@@ -39,6 +39,7 @@ function App() {
                             <Route path="/hackathon" element={<Markdown src={require("./content/hackathon.md")} />} />
                             <Route path="/challenges" element={<ChallengesPage />} />
                             <Route path="/challenge/:name" element={<ChallengeDetails />} />
+                            <Route path="/results" element={<Markdown src={require("./content/results.md")} />} />
                             <Route path="/impressum" element={<Markdown src={require("./content/impressum.md")} />} />
                             <Route path="/partner" element={<Markdown src={require("./content/partner.md")} />} />
                             <Route path="/unterstuetzen" element={<Markdown src={require("./content/unterstuetzen.md")} />} />
