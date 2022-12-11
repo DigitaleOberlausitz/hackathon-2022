@@ -18,7 +18,7 @@ Zu jeder [Challenge](/challenges) hat sich je ein Team gefunden, um sie zu bearb
 
 **Team:** Denys Serendeko, Konstantin Eger, Fedor Leonov
 
-**Ergebnisse:** [Repository bei Github](https://github.com/KonstantinEger/hackathon-2022); [Votragsfolien (PDF)](https://github.com/KonstantinEger/hackathon-2022/blob/main/Hackathon%20GR%2022.pdf)
+**Ergebnisse:** [Repository bei Github](https://github.com/KonstantinEger/hackathon-2022); [Votragsfolien (PDF)](https://raw.githubusercontent.com/KonstantinEger/hackathon-2022/main/Hackathon%20GR%2022.pdf)
 
 ## Datensparsame Online-Verträge
 
