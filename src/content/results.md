@@ -16,7 +16,7 @@ Zu jeder [Challenge](/challenges) hat sich je ein Team gefunden, um sie zu bearb
 **Aufgabe:** Erstellung einer Verteilzentrale für die Streuung von wichtigen Eltern-Informationen durch eine Kita.  
 [Mehr lesen.](/challenge/fmsg1)
 
-**Team:** Denys Serendeko, Konstantin Eger, Fedor Leonov
+**Team:** Denys Serendeko , Fedor Leonov, Konstantin Eger
 
 **Ergebnisse:** [Repository bei Github](https://github.com/KonstantinEger/hackathon-2022); [Vortragsfolien (PDF)](https://raw.githubusercontent.com/KonstantinEger/hackathon-2022/main/Hackathon%20GR%2022.pdf)
 
