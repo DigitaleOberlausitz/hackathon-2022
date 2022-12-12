@@ -4,7 +4,7 @@ Zu jeder [Challenge](/challenges) hat sich je ein Team gefunden, um sie zu bearb
 
 ## OpenData-Anwendung
 
-**Aufgabe:** Evaluation und praktische Erschließung von regionalen OpenData-Angeboten.  
+**Challenge:** Evaluation und praktische Erschließung von regionalen OpenData-Angeboten.  
 [Mehr lesen.](/challenge/doev1)
 
 **Team:** Christopher Hilgner, Max Scholz, Richard Mrosk, *mit Zusatzbeitrag von Gabriele Schönfelder (gs)*
@@ -13,7 +13,7 @@ Zu jeder [Challenge](/challenges) hat sich je ein Team gefunden, um sie zu bearb
 
 ## Nachrichtenverteiler
 
-**Aufgabe:** Erstellung einer Verteilzentrale für die Streuung von wichtigen Eltern-Informationen durch eine Kita.  
+**Challenge:** Erstellung einer Verteilzentrale für die Streuung von wichtigen Eltern-Informationen durch eine Kita.  
 [Mehr lesen.](/challenge/fmsg1)
 
 **Team:** Denys Serendeko , Fedor Leonov, Konstantin Eger
@@ -22,7 +22,7 @@ Zu jeder [Challenge](/challenges) hat sich je ein Team gefunden, um sie zu bearb
 
 ## Datensparsame Online-Verträge
 
-**Aufgabe:** Realisierung einer datensparsamen, öffentlichen, rein digitalen Lösung zur Unterzeichnung von Verträgen.  
+**Challenge:** Realisierung einer datensparsamen, öffentlichen, rein digitalen Lösung zur Unterzeichnung von Verträgen.  
 [Mehr lesen.](/challenge/sedna1)
 
 **Team:** Marvin Schütz, Maximilian-Felix Helm, Peter Nerlich
@@ -31,7 +31,7 @@ Zu jeder [Challenge](/challenges) hat sich je ein Team gefunden, um sie zu bearb
 
 ## Simulationsframework für PLC Software
 
-**Aufgabe:** Entwicklung eines Frameworks zur Simulation des Verhaltens von Maschinen als Gegenstück zur simulierten Steuerungssoftware PLCSIM.  
+**Challenge:** Entwicklung eines Frameworks zur Simulation des Verhaltens von Maschinen als Gegenstück zur simulierten Steuerungssoftware PLCSIM.  
 [Mehr lesen.](/challenge/zeiss1)
 
 **Team:** Eduard Haas, Jonathan Zopf, Julian Kirsch, Lukas Karras
@@ -40,7 +40,7 @@ Zu jeder [Challenge](/challenges) hat sich je ein Team gefunden, um sie zu bearb
 
 ## Testdatengenerator
 
-**Aufgabe:** Entwicklung eines Generators für kontextabhängige, realistische Testdaten, wie sie von Maschinen einer echten Fabrik zu erwarten wären.  
+**Challenge:** Entwicklung eines Generators für kontextabhängige, realistische Testdaten, wie sie von Maschinen einer echten Fabrik zu erwarten wären.  
 [Mehr lesen.](/challenge/zeiss2)
 
 **Team:** Karsten Hänsch
