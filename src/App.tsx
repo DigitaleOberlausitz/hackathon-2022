@@ -14,6 +14,12 @@ function App() {
     return (
         <BrowserRouter>
             <div className="App">
+                <div className="banner-new-hackathon">
+                    <p>Archive: This is the website for the hackathon 2022.</p>
+                    <p>
+                    <b>The website for the new Hackathon 2023 is: <a href="https://hackathon2023.digitale-oberlausitz.eu">hackathon2023.digitale-oberlausitz.eu</a></b>
+                    </p>
+                </div>
                 <div className="header dark">
                     <div className="title">
                         <ReactMarkdown>

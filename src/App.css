@@ -4,6 +4,15 @@
     flex-direction: column;
 }
 
+.banner-new-hackathon {
+    background: white;
+}
+
+.banner-new-hackathon p {
+    font-size: 1.2em;
+    padding: 0 2em;
+}
+
 .dark {
     background-color: var(--color-highlight-medium);
     color: var(--color-font-light);
